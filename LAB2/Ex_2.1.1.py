@@ -1,4 +1,12 @@
 #02.1.1 Two numbers. Write a program that stores two integers in two constants defined in code, and then displays them: 
+#A. The sum; 
+#B. The difference; 
+#C. The product; 
+#D. The average value; 
+#E. The distance (i.e. the absolute value of the difference); 
+#F. The maximum value (i.e. the greater of the two); 
+#G. The minimum value (i.e. the lesser of the two).
+
 
 def main(number1, number2):
     # a) Sum of the two numbers
