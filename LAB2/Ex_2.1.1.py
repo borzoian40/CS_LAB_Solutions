@@ -1,3 +1,5 @@
+#02.1.1 Two numbers. Write a program that stores two integers in two constants defined in code, and then displays them: 
+
 def main(number1, number2):
     # a) Sum of the two numbers
     total_sum = number1 + number2
@@ -33,8 +35,9 @@ def main(number1, number2):
     min_number = min(number1, number2)
     print(f"Minimum value between {number1} and {number2} is {min_number}")
 
-
+#function
 if __name__ == "__main__":
+    
     input_num1 = int(input("Please enter your first number: "))
     input_num2 = int(input("Please enter your second number: "))
 
