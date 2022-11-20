@@ -1,4 +1,8 @@
 """
+02.2.5 Registrations. The freshman of the students of a University is composed of two parts: a letter 
+and a sequence of numbers. Write a program that, starting from two serial codes, shows them on 
+the screen in ascending order based on the numerical part only. Tip: Use the default functions of
+the Python language.
 """
 
 def main():
