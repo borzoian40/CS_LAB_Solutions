@@ -1,6 +1,6 @@
 
-INT_A = 123
-INT_B = 456
+INT_A = 369
+INT_B = 963
 
 
 def main():
