@@ -14,15 +14,15 @@ def main(number):
 
     #Condition 1
     if (integer_number > 0 and integer_number < 100):
-        print(f"x > 0 and x < 100 : {i_value}")
+        print(f"x > 0 and x < 100: {i_value}")
     else:
-        print(f"x > 0 and x < 100 : {not i_value}")
+        print(f"x > 0 and x < 100: {not i_value}")
 
     #Condition 2
     if (integer_number > 0 or integer_number < 100):
         print(f"x > 0 or x < 100: {i_value}")
     else:
-        print(f"x > 0 or x < 100: {not i_value}")
+        print(f"x > 0 or x < 100:  {not i_value}")
 
 
     #Condition 3
