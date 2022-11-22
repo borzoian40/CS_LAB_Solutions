@@ -8,3 +8,19 @@ IV. '1', 1;
 V. 'hello', 'Hello'.
 """
 
+from math import sqrt
+
+value_1 = (1==1)
+print(f"The first comparison is: {value_1}")
+
+value_2 = (1 == 1.0)
+print(f"The second comparison is: {value_2}")
+
+value_3 = (2.0 == sqrt(4))
+print(f"The third comparison between {2.0} and {sqrt(4)}is : {value_3}")
+
+value_4 = ('1' == 1)
+print(f"The fourth comparison between '1' and 1 is: {value_4}")
+
+value_5 = ('hello' == 'Hello')
+print(f"The fifth comparison between 'hello' and 'Hello' is: {value_5}")
