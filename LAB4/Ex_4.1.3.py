@@ -15,3 +15,10 @@ shows:
    *
 
 """
+rows = int(input("Please enter the number of rows: "))
+columns = int(input("Please enter the number of columns: "))
+
+for i in range(rows):
+    for j in range(columns):
+        print("*", end = "")
+    print()
