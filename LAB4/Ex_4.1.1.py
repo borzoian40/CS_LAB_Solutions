@@ -2,17 +2,12 @@
 4.1.1 
 Integer numbers. Write a program reading a sequence of integer numbers (an empty string is the end of the sequence) 
 and, after each input, executing and visualizing: 
-I. Partial sums of every number acquired; the program must visualize the result of the 
-calculations after each input.
-As an example, if the input values are 1 7 2 9, the program shall visualize the partial sum 
-of the numbers acquired after each input:
+I. Partial sums of every number acquired; the program must visualize the result of the calculations after each input.
+As an example, if the input values are 1 7 2 9, the program shall visualize the partial sum of the numbers acquired after each input:
 a. After the first input (1), the first acquired value: 1.
-b. After the second input (7), the sum between the first and the second acquired 
-values: 1 + 7 = 8.
-c. After the third input (2), the sum between the first, the second, and the third 
-acquired values: 1 + 7 + 2 = 10.
-d. After the fourth input (9), the sum between the first, the second, the third, and the 
-fourth values acquired: 1 + 7 + 2 + 9 = 19.
+b. After the second input (7), the sum between the first and the second acquired values: 1 + 7 = 8.
+c. After the third input (2), the sum between the first, the second, and the third acquired values: 1 + 7 + 2 = 10.
+d. After the fourth input (9), the sum between the first, the second, the third, and the fourth values acquired: 1 + 7 + 2 + 9 = 19.
 II. The minimum and the maximum values among the acquired ones.
 III. How many acquired values are even, how many acquired values are odd. 
 """
