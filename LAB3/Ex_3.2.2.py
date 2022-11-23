@@ -58,7 +58,7 @@ elif grade[0] == "D":
 else:
     score = 0.0
 
-# Handle the + or - if it is present.
+
 if len(grade) > 1 and grade[0] != "F":
     if grade[1] == "+":
         score += 0.3
