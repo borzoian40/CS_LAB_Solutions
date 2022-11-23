@@ -5,7 +5,8 @@ possibly followed by a + or – sign. Their numerical values are, in order, 4.0,
 0.0. 'F+' and 'F–' grades do not exist. A + sign increases the numerical grade by 0.3, while a –
 sign decreases it by the same amount. The 'A+' grade is equal to 4.0. [P3.12]
 """
-#First approach 
+##### First Approach #####
+
 def main(grade):
     score = 0
     if grade == "A+":
@@ -41,8 +42,7 @@ if __name__ == "__main__":
     result = (input("Please enter your grade: "))
     print(f"The numeric value is: {main(result)}")
 
-#Second approach
-
+##### Second Approach #####
 
 grade = input("Please enter your grade: ")
 grade = grade.upper()
