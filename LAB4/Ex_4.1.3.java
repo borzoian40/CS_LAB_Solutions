@@ -41,7 +41,7 @@ public class Ex_4.1.3{
       for(int k = 0; k<row-2; k++){
       System.out.print("*");
       }
-      for(int j = 0; j<column-2; k++){
+      for(int j = 0; j<column-2; j++){
         System.out.print("*");
        }
     System.out.println();  
