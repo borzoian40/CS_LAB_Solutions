@@ -47,6 +47,20 @@ public class Ex_4.1.3{
     System.out.println();  
     }//end of second outer for loop
   
+ /*
+ for(int i = 0; i<row-1; i++){
+            for(int j = 0; j<=i+1; j++){
+                System.out.print(" ");
+            }
+            for(int k = column-3; k>=i; k--){
+                System.out.print("*");
+            }
+            for(int j = column-2; j>=i; j--){
+                System.out.print("*");
+            }
+            System.out.println();
+        }//end of second outer for loop
+ */
   
   
   }//end of main
