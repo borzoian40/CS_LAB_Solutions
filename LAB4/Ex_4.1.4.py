@@ -14,6 +14,19 @@ if __name__ == "__main__":
 II. The uppercase letters starting from the end. If the user writes the string 'HeLlO', the 
 program shall output 'OLH'.
 """
-def 
+def main(letters):
+    upper_case = ""
+
+    for i in range(len(letters)):
+        if (letters[i] >= "A" and letters[i] <= "Z"):
+            upper_case += letters[i]
+
+    return (upper_case[::-1])
+
+
+if __name__ == "__main__":
+    something = input("Please enter your string: ")
+    print(f"The reversed capital letters of your string are: {main(something)}")
+
 
 
