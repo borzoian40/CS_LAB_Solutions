@@ -36,7 +36,7 @@ def main(row):
     i = 0
     while (i < column):
         j = column
-        while (j > i):
+        while (j > i+1):
             print(" ", end="")
             j -= 1
         k = 0
@@ -54,7 +54,7 @@ def main(row):
     i1 = 0
     while (i1 < column - 1):
         j1 = 0
-        while (j1 <= i1+1):
+        while (j1 <= i1):
             print(" ", end="")
             j1 += 1
 
