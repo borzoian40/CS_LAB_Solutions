@@ -14,8 +14,9 @@ def main(words):
     for i in range(1, len(words) + 1):
         print(words[i - 1])
     for j in range(1, len(words)):
-        for k in range(1, len(words)-1):
-            print(words[k - 1:k + j:1])
+        for k in range(1, len(words)):
+            if (k + j <= len(words)):
+                print(words[k - 1:k + j:1])
 
 
 if __name__ == "__main__":
