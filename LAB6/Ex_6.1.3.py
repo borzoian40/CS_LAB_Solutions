@@ -47,7 +47,7 @@ def cone_volume(r, h):
 # (pi)(r**2)(h/3)
 
 def cone_surface(r, h):
-    l = float((r ** 2) + (h ** 2))
+    l = math.sqrt((r ** 2) + (h ** 2))
     surface_Cone = float((math.pi) * (r ** 2) + (math.pi) * (r) * l)
     print(f"Cone surface: {surface_Cone: 0.2f}")
 
