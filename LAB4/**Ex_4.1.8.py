@@ -18,7 +18,6 @@ while (input_num >= 0):
 
 print(input_set)
 
-dup = 0
 new_list = []
 unique_list = []
 
