@@ -52,3 +52,11 @@ def cone_surface(r, h):
     print(f"{surface_Cone: 0.2f}")
 ##SA = πr2 + πrl
 
+if __name__ == "__main__":
+    radius = int(input("Please enter the length of your radius: "))
+    height = int(input("Please enter the length of your height: "))
+    sphere_volume(radius)
+    sphere_surface(radius)
+    cylinder_volume(radius,height)
+    cylinder_surface(radius,height)
+    
