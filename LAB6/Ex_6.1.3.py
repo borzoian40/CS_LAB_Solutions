@@ -7,6 +7,11 @@ def cylinder_surface(r,h)
 def cone_volume(r,h)
 def cone_surface(r,h)
 
+To calculate the volume and surface area of a sphere of radius r, a cylinder with a circular base of 
+radius r and height h and a cone with a circular base with radius r and height h. Then write a 
+program that asks the user to enter the values r and h, then the program calls the six functions and 
+display the output results
+
 """
 
 import math
