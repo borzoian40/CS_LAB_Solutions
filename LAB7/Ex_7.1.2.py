@@ -7,3 +7,30 @@ III. All elements in reverse order;
 IV. The first and the last element.
 
 """
+from random import randint
+
+
+def random_number():
+    listarray = [] * 10
+    for i in range(1, 11):
+        listarray.append(randint(1, 101))
+
+    even_index = [] * 10
+    even_element = [] * 10
+    reverse_listarray = [] * 10
+    for j in range(0, 10):
+        if j % 2 == 0:
+            even_index.append(listarray[j])
+        if listarray[j] % 2 == 0:
+            even_element.append(listarray[j])
+
+    print(even_index)
+    print(even_element)
+    print(listarray[::-1])
+    print(listarray[0], listarray[len(listarray) - 1])
+
+    print(f"The original random array: {listarray}")
+
+
+random_number()
+
