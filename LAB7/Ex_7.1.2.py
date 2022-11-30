@@ -24,9 +24,13 @@ def random_number():
         if listarray[j] % 2 == 0:
             even_element.append(listarray[j])
 
+    # 1. Every element at an even index
     print(even_index)
+    # 2. Every even element
     print(even_element)
+    # 3. All elements in reverse order
     print(listarray[::-1])
+    # 4. Only the first and last element
     print(listarray[0], listarray[len(listarray) - 1])
 
     print(f"The original random array: {listarray}")
