@@ -5,6 +5,7 @@ For example, the two lists 1 4 9 16 9 7 4 9 11 and 11 11 7 9 16 4 1 must be cons
 The function must not modify the lists that have been passed as parameters. 
 
 """
+
 def same_Set(arr1, arr2):
     if contained(arr1, arr2) and contained(arr2, arr1):
         print("They are the same list!")
@@ -12,9 +13,9 @@ def same_Set(arr1, arr2):
         print("They are not the same.")
 
 
-def contained(list1, list2):
-    for element in list1:
-        if element not in list2:
+def contained(arr1, arr2):
+    for element in arr1:
+        if element not in arr2:
             return False
     return True
 
