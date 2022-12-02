@@ -24,3 +24,13 @@ def find_Local_Maxima(length, array):
       print(*maxima)
     else:
       print("There are no local maxima.")
+
+    
+    
+if __name__ == "__main__":
+    length = int(input("Please enter the length of your array: "))
+    array = [0] * length
+
+    for i in range(length):
+        array[i] = int(input(f"{i + 1}. Enter your number: "))     
+          
