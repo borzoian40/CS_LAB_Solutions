@@ -16,10 +16,13 @@ def sum_without_smallest(arr):
     print(arr)
 
     sum = 0
+    temp = 0
     for i in range(len(arr)):
-
+        
         sum += arr[i]
-      
+        print(f"{arr[i]} + {temp} = {sum}")
+        temp = sum
+        
 
     print(f"The sum is: {sum}")
 
